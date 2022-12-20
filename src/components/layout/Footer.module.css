@@ -1,0 +1,42 @@
+.footer{
+    background-color: #222;
+    color: #fff;
+    padding: 3rem;
+    text-align: center;
+}
+
+.social_list{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.social_list svg {
+    cursor: pointer;
+    font-size: 1.5em;
+}
+
+.social_list li{
+    margin: 0 1em;
+}
+
+.facebook:hover{
+    color: #6286e0;
+}
+
+.whatsapp:hover{
+    color: #25d366;
+}
+
+.instagram:hover{
+    color: #e1306c;
+}
+
+.copy_right{
+    margin-top: 2em;
+}
+
+.copy_right span {
+    font-weight: bold;
+    color: #FFBB33;
+}
