@@ -1,0 +1,21 @@
+{
+  "projects": [],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Web Development"
+    },
+    {
+      "id": 2,
+      "name": "Backend Development"
+    },
+    {
+      "id": 3,
+      "name": "Mobile Development"
+    },
+    {
+      "id": 4,
+      "name": "AWS Development"
+    }
+  ]
+}
