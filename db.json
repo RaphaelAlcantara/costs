@@ -1,5 +1,39 @@
 {
-  "projects": [],
+  "projects": [
+    {
+      "category": {
+        "id": "1",
+        "name": "Web Development"
+      },
+      "budget": "5000",
+      "name": "teste",
+      "cost": 0,
+      "services": [],
+      "id": 1
+    },
+    {
+      "name": "Rapha",
+      "budget": "1200",
+      "category": {
+        "id": "4",
+        "name": "AWS Development"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 2
+    },
+    {
+      "name": "Rapha",
+      "budget": "1200",
+      "category": {
+        "id": "4",
+        "name": "AWS Development"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 3
+    }
+  ],
   "categories": [
     {
       "id": 1,
