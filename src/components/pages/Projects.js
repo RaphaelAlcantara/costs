@@ -13,11 +13,13 @@ function Projects (){
     }
 
     return (
-        <div>
-            <div>
+        <div className={styles.project_container}>
+            <div className={styles.title_container}>
                 <h1>Meus projetos</h1>
+
                 <LinkButton to="/new-project" text="Criar projeto"/>
             </div>
+
             {message && <Message type="sucess" msg={message}/>}
             <Container customClass="start">
                 <p>Projetos...</p>
