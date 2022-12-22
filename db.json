@@ -32,6 +32,24 @@
       "cost": 0,
       "services": [],
       "id": 3
+    },
+    {
+      "name": "Mariano Vazquez",
+      "budget": "2300",
+      "category": {
+        "id": "4",
+        "name": "AWS Development"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 4
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "email": "teste@teste.com",
+      "password": "1234"
     }
   ],
   "categories": [

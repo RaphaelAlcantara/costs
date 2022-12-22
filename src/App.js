@@ -8,6 +8,7 @@ import Container from "./components/layout/Container";
 import Navbar from "./components/layout/Navbar";
 import Footer from "./components/layout/Footer";
 import Projects from "./components/pages/Projects";
+import Login from "./components/pages/Login";
 
 function App() {
   return (
@@ -30,6 +31,10 @@ function App() {
             <Route path="/new-project">
                 <NewProject/>
             </Route>
+            <Route path="/login">
+                <Login/>
+            </Route>
+
             </Container>
         </Switch>
         <Footer/>

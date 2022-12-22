@@ -1,0 +1,25 @@
+import styles from './Message.module.css'
+import {useState, useEffect} from "react";
+
+function Message({type, msg}){
+
+    const [visible, setVisible] = useState(false);
+
+    useEffect(() => {
+        setVisible(true);
+        setTimeout(() => {
+            setVisible(false);
+        }, 3000)
+    }, [msg]);
+
+    return(
+        <>
+            {visible && (
+                <div className={`${styles.message} ${styles[type]}`}>{msg}</div>
+            )}
+
+
+        </>
+    )
+}
+export default Message

@@ -1,0 +1,18 @@
+.form{
+    width: 50%;
+    margin: 2em 0;
+}
+
+.form_container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4em;
+}
+
+.form h1{
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
