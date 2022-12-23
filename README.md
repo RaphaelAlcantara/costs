@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-Packages used: npm install json-server react-icons react-router-dom@5 uuid
+Packages used: npm install json-server react-icons react-router-dom@5 uuid i react-query
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
